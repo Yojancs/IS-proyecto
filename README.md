@@ -89,6 +89,6 @@
    En nuestro trabajo, hemos procurado seguir esta norma al no sobrecargar las funcionalidades de las clases sin más de lo que se necesite. Por ejemplo en la captura se ve que      cada función está dirigida a un único fin, aunque pertenezcan al mismo sistema, estan especializados. 
 
    <p align="center">
-     <img src="/imagenesINGSoft/segI.png" >
+     <img src="/imagenesINGSoft/asolid3.png" >
       </p>
 
