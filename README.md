@@ -1,8 +1,4 @@
-## Práctica de código legible aplicadas
 
-* No colocar JS ni CSS en las plantillas Blade y no coloques HTML en clases de PHP
-* Convención de Laravel para los nombres, organización de archivos y carpetas:
-  Se siguen los [estándares PSR](http://www.php-fig.org/psr/psr-2/), también, sigue la convención aceptada por la comunidad. Para la organización de archivos y caroetas , técnicamente, se podría escribir el código de una aplicación completo dentro de un solo archivo. Pero eso resultaría en una pesadilla para leer y mantener. Es por ello que siguiendo el MVC se organizaron las carpetas y archivos. 
 
 
 
