@@ -221,20 +221,6 @@ class LoginController extends Controller
 
    Es menos cansado leer 5 filas de amplitud corta que un largo texto a ras de hoja, por ello es una buena prática evitar escribir líneas largas y horizontales.
 
-## Estilos de Programación aplicados
-* Programacion Orientada a Objetos: 
-El estilo de programación utilizado fue siguiendo el paradigma orientado a objetos, basándonos en el concepto de clases y objetos. Este tipo de programación se utiliza para estructurar un programa de software en piezas simples y reutilizables de planos de código (clases) para crear instancias individuales de objetos. 
-
-* 	Código mantenible: 
-El sistema está diseñado de forma que pueda ser actualizado cada cierto tiempo, con independencia entre sus funciones y clases, logrando así el programa perdure.
- 
-* Composición de funciones:
-  Esta sección muestra como se conectan las llamadas a funciones. Se utiliza un estilo de paso de continuación, donde a cada función se le da también la siguiente función que debe ser llamada.
-  <p align="center">
-      <img src="/imagenesINGSoft/estilos.jpeg" >
-      <img src="/imagenesINGSoft/estilos1.jpeg" >
-      </p>
-
  
 ## Conceptos DDD aplicados
 
