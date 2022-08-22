@@ -9,10 +9,10 @@
 
 * Entities: 
 
-  Existen diferentes entidades en el Sistema que desarrollamos, entre ellas podríamos mencionar las entidades Ponente, Participante y Evento, ya que son objeto del dominio que  mantienen un estado y comportamiento más allá de la ejecución de la aplicación. A continuación se muestra la entidad Ponente, que posee una identificación única mediante su DNI.
+  Existen diferentes entidades en el Sistema que desarrollamos, entre ellas podríamos mencionar las entidades Ponente, Participante , Evento , persona , participante , sesion , administrador, ya que son objeto del dominio que  mantienen un estado y comportamiento más allá de la ejecución de la aplicación. A continuación se muestra la entidad Evento, que posee una identificación única mediante su ID.
 
    <p align="center">
-      <img src="/imagenesINGSoft/dd2(1).png" >
+      <img src="/imagenesINGSoft/eventoid.png" >
        </p>
       
 *  Value Objects:
