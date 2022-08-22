@@ -232,6 +232,15 @@ class LoginController extends Controller
     <img src="/imagenesINGSoft/dd1(1).png" >
       </p>
 
+*  Ubiquitous Language: 
+
+   Es un concepto de gran importancia porque, además de servir de vehículo de entendimiento en el negocio y entre el negocio e IT, también sirve para identificar las particiones del Domain, que darán lugar a soluciones modulares
+
+   <p align="center">
+  <img src="/imagenesINGSoft/alenguajeubicuo1.png" >
+    <img src="/imagenesINGSoft/alenguajeubicuo2.png" >
+      </p>
+
 * Entities: 
 
   Existen diferentes entidades en el Sistema que desarrollamos, entre ellas podríamos mencionar las entidades Ponente, Participante , Evento , persona , participante , sesion , administrador, ya que son objeto del dominio que  mantienen un estado y comportamiento más allá de la ejecución de la aplicación. A continuación se muestra la entidad Evento, que posee una identificación única mediante su ID.
@@ -240,6 +249,15 @@ class LoginController extends Controller
       <img src="/imagenesINGSoft/eventoid.png" >
        </p>
       
+*  Aggregates: 
+   Los agregados representan el límite lógico de un conjunto de datos, permiten modelar el sistema en pequeños subconjuntos. Para acceder a los elementos de un agregado debemos  acceder mediante una entidad principal, que le sirve a modo de entrada. 
+
+   Existe un agregado “Sesión” ya que esta entidad posee relaciones con otras a nivel de negocio y su acceso es mediante la entidad Programa.
+    
+    <p align="center">
+  <img src="/imagenesINGSoft/aagregate.png" >
+      </p>
+
 *  Value Objects:
 
    Los Value Objects (VO) son solo valores, no entidades, por si solos no significan nada, tienen que estar acompañados de una entidad para que signifiquen algo o ser interpretados. 
@@ -249,32 +267,13 @@ class LoginController extends Controller
        <img src="/imagenesINGSoft/dd3(1).png" >
       </p>
    La clase SesionEvento si bien aparece como un Entity en realidad solo es un dato que conecta la relacion N-M de las entidades Sesión y Evento y almacena el dato de la hora de Inicio. Sin estas otras entidades perdería sentido por sí misma. Es un Value Object.
- 
-*  Ubiquitous Language: 
-
-   Es un concepto de gran importancia porque, además de servir de vehículo de entendimiento en el negocio y entre el negocio e IT, también sirve para identificar las particiones del Domain, que darán lugar a soluciones modulares
-
-   <p align="center">
-  <img src="/imagenesINGSoft/dd4(1).png" >
-    <img src="/imagenesINGSoft/dd5(1).png" >
-      </p>
-
-*  Aggregates: 
-   Los agregados representan el límite lógico de un conjunto de datos, permiten modelar el sistema en pequeños subconjuntos. Para acceder a los elementos de un agregado debemos  acceder mediante una entidad principal, que le sirve a modo de entrada. 
-
-   Existe un agregado “Sesión” ya que esta entidad posee relaciones con otras a nivel de negocio y su acceso es mediante la entidad Programa.
-    
-    <p align="center">
-  <img src="/imagenesINGSoft/dd6(1).png" >
-      <img src="/imagenesINGSoft/dd7(1).png">
-      </p>
 
 * Repository:
  
   En nuestro proyecto tenemos clases, o más famosamente llamados controladores (MVC), que tienen la función de repositorio, ya que, son los que controlan, dirigen, a la aplicación   por dónde debe ir dependiendo de lo que el usuario requiera al interactuar con dicha aplicación.
 
      <p align="center">
-       <img src="/imagenesINGSoft/dd8.png" >
+       <img src="/imagenesINGSoft/arepositorio.png" >
      </p>
 
   Un claro ejemplo sería en controlador de Sesión, que guarda diferentes funciones en donde consultamos dichos datos a la base de datos para que luego sean mostrados al usuario.
