@@ -72,50 +72,9 @@
   -  "Una clase debe tener solo una razón para cambiar"
   Se eligió esta clase porque cumple con las características de este, es decir, la Clase User se encarga únicamente de recopilar la información de una persona como nombre, email,  password.
 
- 
- ```php
-<?php
-
-namespace App\Models;
-
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
-
-class User extends Authenticatable
-{
-    use HasFactory, Notifiable;
-
-    protected $table = 'persona';
-    public $timestamps = false;
-    protected $primaryKey = 'dni';
-    /**
-     * The attributes that are mass assignable.
-     */
-    protected $fillable = [
-        'nombre',
-        'email',
-        'password',
-    ];
-
-    /**
-     * The attributes that should be hidden for arrays.
-     */
-    protected $hidden = [
-        'password',
-    ];
-
-    /**
-     * The attributes that should be cast to native types.
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
-}
-
-
-```
+ <p align="center">
+      <img src="/imagenesINGSoft/asolid2.png" >
+   </p>
    El principio de responsabilidad única busca que el código quede encapsulado y exista independencia entre las clases, sus funcionalidades. Al utilizar clases hemos procurado   cumplir con este criterio, ya que encapsulamos la funcionalidad de cada una para que realicen una única función. 
 
    <p align="center">
