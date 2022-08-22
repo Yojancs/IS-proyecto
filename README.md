@@ -18,6 +18,8 @@ El sistema está diseñado de forma que pueda ser actualizado cada cierto tiempo
       </p>
 ## Conceptos DDD aplicados
 
+## Estilos de Programación aplicados
+
 * Modules:
  
   Cada parte del proyecto tiene un dominio que aísla los códigos formados por módulos de clases relacionadas con una funcionalidad de la aplicación.
