@@ -2,8 +2,14 @@
 
 * Integrantes
 -Arodi Carhuas Heredia
+
+
 -Alvaro Panibra Choctaya
+
+
 -Cristhian Junior Mendoza
+
+
 
 ## Estilos de Programación aplicados
 * Programacion Orientada a Objetos: 
