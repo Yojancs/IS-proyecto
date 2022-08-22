@@ -75,13 +75,13 @@
  <p align="center">
       <img src="/imagenesINGSoft/asolid2.png" >
    </p>
-   El principio de responsabilidad única busca que el código quede encapsulado y exista independencia entre las clases, sus funcionalidades. Al utilizar clases hemos procurado   cumplir con este criterio, ya que encapsulamos la funcionalidad de cada una para que realicen una única función. 
+  Se busca que el código quede encapsulado y exista independencia entre las clases, sus funcionalidades. Al utilizar clases hemos procurado   cumplir con este criterio, ya que encapsulamos la funcionalidad de cada una para que realicen una única función. 
 
    <p align="center">
-      <img src="/imagenesINGSoft/respUnica4.png" >
+      <img src="/imagenesINGSoft/asolid22.png" >
       </p>
 
-   Por ejemplo, en la imagen se ve que se han independizado las funciones, entre ellas editar la sesión, y otras. Esto también ayuda a la reutilización del código en caso de cambios o mantenimiento. 
+   Por ejemplo, en la imagen se ve que se han independizado las funciones, entre ellas actualidzar la sesiosn, y otras. Esto también ayuda a la reutilización del código en caso de cambios o mantenimiento. 
 
 *  Segregación de la Interfaz: 
 
