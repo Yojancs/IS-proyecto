@@ -1,3 +1,10 @@
+## Proyecyo de Software - Biblioteca Digital
+
+* Integrantes
+-Arodi Carhuas Heredia
+-Alvaro Panibra Choctaya
+-Cristhian Junior Mendoza
+
 ## Estilos de Programación aplicados
 * Programacion Orientada a Objetos: 
 El estilo de programación utilizado fue siguiendo el paradigma orientado a objetos, basándonos en el concepto de clases y objetos. Este tipo de programación se utiliza para estructurar un programa de software en piezas simples y reutilizables de planos de código (clases) para crear instancias individuales de objetos. 
